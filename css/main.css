@@ -229,8 +229,23 @@ p {
 .research .img-fluid {
   margin: auto;
   display: block;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
+
+@media (max-width: 993px) {
+  .research.navigation .menu-item {
+    display: none;
+  }
+
+  .container.research {
+    padding-top: 0px;
+  }
+  .research .img-fluid {
+    padding-top: 0px;
+  }
+}
 .research a {
   color: rgba(0, 0, 0, 0.7);
 }
@@ -238,11 +253,6 @@ p {
 .research a:hover {
   color: rgb(68, 90, 169);
   text-decoration: none;
-}
-
-.research .img-fluid {
-  padding-top: 20px;
-  padding-bottom: 50px;
 }
 
 .research h2 {
@@ -268,16 +278,6 @@ p {
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 5%;
-}
-
-@media (max-width: 993px) {
-  .research.navigation {
-    display: none;
-  }
-
-  .container.research {
-    padding-top: 0px;
-  }
 }
 
 .publication.navigation, .research.navigation {
