@@ -196,7 +196,7 @@ p {
   border-bottom-color: gray;
 }
 
-.introduction p{
+.introduction p {
   font-size: 18px;
 }
 
@@ -233,7 +233,6 @@ p {
   padding-bottom: 20px;
 }
 
-
 @media (max-width: 993px) {
   .research.navigation .menu-item {
     display: none;
@@ -242,10 +241,12 @@ p {
   .container.research {
     padding-top: 0px;
   }
+
   .research .img-fluid {
     padding-top: 0px;
   }
 }
+
 .research a {
   color: rgba(0, 0, 0, 0.7);
 }
@@ -362,6 +363,7 @@ p {
   padding-top: 10px;
   padding-bottom: 5px;
 }
+
 .patent h2 {
   font-size: 30px;
   padding-top: 0px;
