@@ -5,6 +5,17 @@
 @import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700");
 
+@media only screen and (max-width: 768px) {
+  #mainNav {
+    max-height: fit-content;
+  }
+ /* And we even need to overwrite the overflow property*/
+  .navbar-collapse.in {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+}
+
 p {
   font-size: 15px;
 }
@@ -93,21 +104,6 @@ p {
     margin-left: -10px;
     margin-right: -20px;
   }
-
-  /*
-
-  .nav-item.top {
-    border-top-color: gray;
-    border-top-style: solid;
-    border-top-width: 2px;
-  }
-
-  .nav-item.bottom {
-    border-bottom-color: gray;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-  }
-  */
 }
 
 /*index style*/
@@ -155,9 +151,11 @@ p {
   }
 }
 
-@media (max-width: 577px) {
+
+@media (max-width: 576px) {
   .main-image-caption h1 {
     padding-top: 40%;
+    font-size: 50px;
   }
 }
 
