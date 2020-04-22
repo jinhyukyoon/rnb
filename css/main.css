@@ -4,10 +4,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans');
 @import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700");
-@font-face {
-  font-family: "San Francisco";
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
-}
 
 @media only screen and (max-width: 768px) {
   #mainNav {
@@ -22,13 +18,22 @@
 
 p {
   font-size: 15px;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 500;
 }
 
 .container {
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  font-family: 'San Francisco', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 .korean {
@@ -51,12 +56,6 @@ p {
   height: 100px;
 }
 
-.navbar-brand {
-  text-transform: uppercase;
-  font-weight: 700;
-  line-height: 24px;
-}
-
 .navbar-brand>.title {
   font-size: 30px;
   color: black;
@@ -71,10 +70,12 @@ p {
 
 .navbar-light .navbar-nav .nav-link {
   font-size: 18px;
+  font-weight: 400;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: rgb(68, 90, 169);
+  font-weight: 400;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -139,10 +140,6 @@ p {
   color: white;
 }
 
-h1, h2, h3, h4 {
-  font-weight: 700;
-}
-
 .main-image-caption h1 {
   padding-top: 15%;
   text-align: center;
@@ -168,7 +165,6 @@ h1, h2, h3, h4 {
 .main-image-caption h2 {
   text-align: center;
   font-size: 30px;
-  letter-spacing: 1px;
 }
 
 .index {
@@ -439,8 +435,13 @@ h1, h2, h3, h4 {
   border-bottom-color: gray;
 }
 
+.patent p strong{
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .patent p {
-  font-size: 20px;
+  font-size: 16px;
   padding-top: 0px;
   margin-bottom: 5px;
 }
