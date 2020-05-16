@@ -9,11 +9,9 @@
   #mainNav {
     max-height: fit-content;
   }
- /* And we even need to overwrite the overflow property*/
-  .navbar-collapse.in {
-    overflow-y: hidden;
+}
+body {
     overflow-x: hidden;
-  }
 }
 
 p {
