@@ -592,3 +592,17 @@ strong {
   float: right;
   margin-bottom: 20px;
 }
+
+#easteregg {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
+  font-size: 16px;
+  padding-left: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
